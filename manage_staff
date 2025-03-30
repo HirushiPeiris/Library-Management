@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Staff</title>
+</head>
+<body>
+    <h2>Manage Staff</h2>
+    <form>
+        <label for="staffName">Name:</label>
+        <input type="text" id="staffName" required><br>
+
+        <label for="staffEmail">Email:</label>
+        <input type="email" id="staffEmail" required><br>
+
+        <button type="submit">Add Staff</button>
+    </form>
+</body>
+</html>
